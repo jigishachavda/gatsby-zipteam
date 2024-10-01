@@ -1,0 +1,428 @@
+@import '../common/variables';
+
+// ============ FONT COLOR
+.textblue {
+    color: $primary;
+}
+
+.textdark {
+    color: $secondary;
+}
+
+.textlightgray {
+    color: $lightgray;
+}
+
+.textgray {
+    color: $gray;
+}
+
+// ============ FONT SIZE
+.fontX {
+    font-size: $fontX;
+}
+
+.fontS {
+    font-size: $fontS;
+}
+
+.fontM {
+    font-size: $fontM;
+}
+
+.fontL {
+    font-size: $fontL;
+}
+
+.fontXX {
+    font-size: $fontXX;
+}
+
+.fontXS {
+    font-size: $fontXS;
+}
+
+.fontXM {
+    font-size: $fontXM;
+}
+
+.fontXL {
+    font-size: $fontXL;
+}
+
+.fontSX {
+    font-size: $fontSX;
+}
+
+.fontSS {
+    font-size: $fontSS;
+}
+
+.fontSM {
+    font-size: $fontSM;
+}
+
+.fontSL {
+    font-size: $fontSL;
+}
+
+.fontMX {
+    font-size: $fontMX;
+}
+
+.fontMS {
+    font-size: $fontMS;
+}
+
+.fontMM {
+    font-size: $fontMM;
+}
+
+.fontML {
+    font-size: $fontML;
+}
+
+.fontLX {
+    font-size: $fontLX;
+}
+
+.fontLS {
+    font-size: $fontLS;
+}
+
+.fontLM {
+    font-size: $fontLM;
+}
+
+.fontLL {
+    font-size: $fontLL;
+}
+
+// ============ LEADING
+.leadingX {
+    line-height: $leadingX;
+}
+
+.leadingS {
+    line-height: $leadingS;
+}
+
+.leadingM {
+    line-height: $leadingM;
+}
+
+.leadingL {
+    line-height: $leadingL;
+}
+
+.leadingXX {
+    line-height: $leadingXX;
+}
+
+.leadingXS {
+    line-height: $leadingXS;
+}
+
+.leadingXM {
+    line-height: $leadingXM;
+}
+
+.leadingXL {
+    line-height: $leadingXL;
+}
+
+.leadingSX {
+    line-height: $leadingSX;
+}
+
+.leadingSS {
+    line-height: $leadingSS;
+}
+
+.leadingSM {
+    line-height: $leadingSM;
+}
+
+.leadingSL {
+    line-height: $leadingSL;
+}
+
+.leadingMX {
+    line-height: $leadingMX;
+}
+
+.leadingMS {
+    line-height: $leadingMS;
+}
+
+.leadingMM {
+    line-height: $leadingMM;
+}
+
+.leadingML {
+    line-height: $leadingML;
+}
+
+.leadingLX {
+    line-height: $leadingLX;
+}
+
+.leadingLM {
+    line-height: $leadingLM;
+}
+
+.leadingLS {
+    line-height: $leadingLS;
+}
+
+.leadingLL {
+    line-height: $leadingLL;
+}
+
+// ============ BORDER RADIUS
+.radiusX {
+    border-radius: $radiusX;
+}
+
+.radiusS {
+    border-radius: $radiusS;
+}
+
+.radiusM {
+    border-radius: $radiusM;
+}
+
+.radiusL {
+    border-radius: $radiusL;
+}
+
+.radiusXX {
+    border-radius: $radiusXX;
+}
+
+.radiusXS {
+    border-radius: $radiusXS;
+}
+
+.radiusXM {
+    border-radius: $radiusXM;
+
+}
+
+.radiusXL {
+    border-radius: $radiusXL;
+}
+
+.radiusSX {
+    border-radius: $radiusSX;
+}
+
+.border-grayOne {
+    border: 1px solid $grayOne;
+}
+
+// ============ BACKGROUND COLOR
+.bgprimary {
+    background-color: $primary !important;
+}
+
+.bg-shareGray {
+    background-color: $shareGray !important;
+}
+
+.bg-gray {
+    background-color: $gray !important;
+}
+
+.bg-grayTwo {
+    background-color: $grayTwo;
+}
+
+.bg-purple {
+    background-color: $purple !important;
+}
+
+.bg-lightgray {
+    background-color: $lightgray !important;
+}
+
+.bg-grayThree {
+    background-color: $grayThree !important;
+}
+
+
+@include media-breakpoint-down(lg) {
+
+    // ============ RES FONT SIZE
+    .res-fontX {
+        font-size: $fontX !important;
+    }
+
+    .res-fontS {
+        font-size: $fontS !important;
+    }
+
+    .res-fontM {
+        font-size: $fontM !important;
+    }
+
+    .res-fontL {
+        font-size: $fontL !important;
+    }
+
+    .res-fontXX {
+        font-size: $fontXX !important;
+    }
+
+    .res-fontXS {
+        font-size: $fontXS !important;
+    }
+
+    .res-fontXM {
+        font-size: $fontXM !important;
+    }
+
+    .res-fontXL {
+        font-size: $fontXL !important;
+    }
+
+    .res-fontSX {
+        font-size: $fontSX !important;
+    }
+
+    .res-fontSS {
+        font-size: $fontSS !important;
+    }
+
+    .res-fontSM {
+        font-size: $fontSM !important;
+    }
+
+    .res-fontSL {
+        font-size: $fontSL !important;
+    }
+
+    .res-fontMX {
+        font-size: $fontMX !important;
+    }
+
+    .res-fontMS {
+        font-size: $fontMS !important;
+    }
+
+    .res-fontLM {
+        font-size: $fontLM !important;
+    }
+
+    .res-fontMM {
+        font-size: $fontMM !important;
+    }
+
+    .res-fontML {
+        font-size: $fontML !important;
+    }
+
+    .res-fontLX {
+        font-size: $fontLX !important;
+    }
+
+    .res-fontLS {
+        font-size: $fontLS !important;
+    }
+
+    .res-fontLL {
+        font-size: $fontLL !important;
+    }
+
+    // ============ RES LEADING
+    .res-leadingX {
+        line-height: $leadingX;
+    }
+
+    .res-leadingS {
+        line-height: $leadingS;
+    }
+
+    .res-leadingM {
+        line-height: $leadingM;
+    }
+
+    .res-leadingL {
+        line-height: $leadingL;
+    }
+
+    .res-leadingXX {
+        line-height: $leadingXX;
+    }
+
+    .res-leadingXS {
+        line-height: $leadingXS;
+    }
+
+    .res-leadingXM {
+        line-height: $leadingXM;
+    }
+
+    .res-leadingXL {
+        line-height: $leadingXL;
+    }
+
+    .res-leadingSX {
+        line-height: $leadingSX;
+    }
+
+    .res-leadingSS {
+        line-height: $leadingSS;
+    }
+
+    .res-leadingSM {
+        line-height: $leadingSM;
+    }
+
+    .res-leadingSL {
+        line-height: $leadingSL;
+    }
+
+    .res-leadingMX {
+        line-height: $leadingMX;
+    }
+
+    .res-leadingMS {
+        line-height: $leadingMS;
+    }
+
+    .res-leadingMM {
+        line-height: $leadingMM;
+    }
+
+    .res-leadingML {
+        line-height: $leadingML;
+    }
+
+    .res-leadingLX {
+        line-height: $leadingLX;
+    }
+
+    // ============ RES FONT WEIGHT
+    .res-fw-semibold {
+        font-weight: 600 !important;
+    }
+
+    .res-fw-regular {
+        font-weight: 400 !important;
+    }
+
+    .res-fw-medium {
+        font-weight: 500 !important;
+    }
+
+    // ============ RES FONT color
+    .res-text-white {
+        color: $white !important;
+    }
+
+    // ============ RES radius
+    .no-radius {
+        border-radius: 0 !important;
+    }
+}
